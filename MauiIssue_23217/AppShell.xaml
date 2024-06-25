@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="MauiIssue_23217.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MauiIssue_23217"
+       Title="MauiIssue_23217"
+       Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <!--  https://fonts.google.com/icons?hl=zh-cn&icon.style=Rounded&selected=Material+Symbols+Rounded:search:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%235f6368  -->
+        <ShellContent Title="Home"
+                      ContentTemplate="{DataTemplate local:MainPage}"
+                      Icon="{FontImage FontFamily='MaterialSymbols',
+                                       Glyph='&#xe8b6;'}"
+                      Route="MainPage" />
+
+        <ShellContent Title="Home"
+                      ContentTemplate="{DataTemplate local:MainPage}"
+                      Icon="{FontImage FontFamily='MaterialSymbols',
+                                       Glyph='&#xe8b6;'}"
+                      Route="MainPage" />
+    </TabBar>
+
+</Shell>
